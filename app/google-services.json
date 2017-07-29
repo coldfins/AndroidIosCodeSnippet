@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "517446527317",
+    "firebase_url": "https://polar-decorator-173310.firebaseio.com",
+    "project_id": "polar-decorator-173310",
+    "storage_bucket": "polar-decorator-173310.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517446527317:android:da3d4d78dfc6cca1",
+        "android_client_info": {
+          "package_name": "com.medical.doctfin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517446527317-e6nvhg6jbhvvkiojfo2qd39rnqcjpi2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medical.doctfin",
+            "certificate_hash": "5b7296df15f3e3ff0b2a23f456c1576874ec149c"
+          }
+        },
+        {
+          "client_id": "517446527317-rmfd20bflae2ah8ibnudmgun2fg0258q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo_2woPW_QQY2UQQvZqUKIZcsadLmlJso"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517446527317-rmfd20bflae2ah8ibnudmgun2fg0258q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,545 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.medical.doctfin.AddAppointmentActivity" >
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/displayToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ToolbarColoredBackArrow" >
+    </android.support.v7.widget.Toolbar>
+
+    <!-- <ScrollView -->
+    <!-- android:id="@+id/addAppointmentScrollView" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent" > -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:id="@+id/addAppointmentScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:elevation="5dp"
+                    android:orientation="vertical" >
+
+                    <fragment
+                        android:id="@+id/mapFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        class="com.google.android.gms.maps.SupportMapFragment" />
+                </LinearLayout>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/appointmentCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    card_view:cardElevation="0dp"
+                    card_view:cardMaxElevation="0dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="10dp" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp" >
+
+                            <ImageView
+                                android:id="@+id/doctAddressImageView"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/location_g32" />
+
+                            <TextView
+                                android:id="@+id/doctAddressTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginStart="20dp"
+                                android:text="@string/noDataString"
+                                android:textColor="@color/dark_black"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <!-- <View -->
+                        <!-- android:id="@+id/basicInfoView" -->
+                        <!-- android:layout_width="200dp" -->
+                        <!-- android:layout_height="0.5dp" -->
+                        <!-- android:layout_gravity="center" -->
+                        <!-- android:layout_marginTop="5dp" -->
+                        <!-- android:background="@color/colorPrimary" /> -->
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingTop="10dp" >
+
+                            <ImageView
+                                android:id="@+id/timeslotImageView"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/clock_g32" />
+
+                            <TextView
+                                android:id="@+id/doctAppoinmentDateTimeTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginStart="20dp"
+                                android:text="@string/availableTodayString"
+                                android:textColor="@color/dark_black"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <View
+                    android:id="@+id/gensView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0.5dp"
+                    android:layout_gravity="center"
+                    android:background="@color/dividerColor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="15dp" >
+
+                    <TextView
+                        android:id="@+id/reasonTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reasonString" />
+
+                    <!-- <Spinner -->
+                    <!-- android:id="@+id/subCatSpinner" -->
+                    <!-- android:layout_width="match_parent" -->
+                    <!-- android:layout_height="wrap_content" /> -->
+
+                    <EditText
+                        android:id="@+id/descriptionEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:singleLine="true"
+                        android:ems="10" >
+                    </EditText>
+
+                    <View
+                        android:id="@+id/genView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0.5dp"
+                        android:layout_gravity="center"
+                        android:background="@color/light_black" />
+                </LinearLayout>
+                <!-- </android.support.v7.widget.CardView> -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:orientation="horizontal" > -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/noOfPersonTextView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginTop="10dp" -->
+                <!-- android:layout_marginLeft="30dp" -->
+                <!-- android:text="No Of Patient:" /> -->
+
+
+                <!-- <Spinner -->
+                <!-- android:id="@+id/noOfPersonSpinner" -->
+                <!-- android:layout_width="150dp" -->
+                <!-- android:layout_marginTop="5dp" -->
+                <!-- android:layout_height="wrap_content" /> -->
+                <!-- </LinearLayout> -->
+
+                <TextView
+                    android:id="@+id/haveVisitedTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/visitedString" />
+
+                <RadioGroup
+                    android:id="@+id/haveVisitedRadioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginStart="14dp"
+                    android:orientation="vertical"
+                    android:paddingTop="3dp" >
+
+                    <!-- <LinearLayout -->
+                    <!-- android:layout_width="match_parent" -->
+                    <!-- android:layout_height="wrap_content" -->
+                    <!-- android:orientation="horizontal" > -->
+
+                    <RadioButton
+                        android:id="@+id/oldPatientRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimary"
+                        android:checked="true"
+                        android:text="@string/newPatientString"
+                        android:textSize="15sp" />
+
+                    <!-- <TextView -->
+                    <!-- android:id="@+id/oldPatientTextView" -->
+                    <!-- android:layout_width="wrap_content" -->
+                    <!-- android:layout_height="wrap_content" -->
+                    <!-- android:paddingLeft="18dp" -->
+                    <!-- android:text="@string/newPatientString" -->
+                    <!-- android:textColor="@color/dark_black" /> -->
+                    <!-- </LinearLayout> -->
+
+
+                    <!-- <LinearLayout -->
+                    <!-- android:layout_width="match_parent" -->
+                    <!-- android:layout_height="wrap_content" -->
+                    <!-- android:orientation="horizontal" > -->
+
+                    <RadioButton
+                        android:id="@+id/newPatientRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimary"
+                        android:text="@string/oldPatientString"
+                        android:textSize="15sp" />
+
+                    <!-- <TextView -->
+                    <!-- android:id="@+id/newPatientTextView" -->
+                    <!-- android:layout_width="wrap_content" -->
+                    <!-- android:layout_height="wrap_content" -->
+                    <!-- android:paddingLeft="18dp" -->
+                    <!-- android:text="@string/oldPatientString" -->
+                    <!-- android:textColor="@color/dark_black" /> -->
+                    <!-- </LinearLayout> -->
+                </RadioGroup>
+
+                <LinearLayout
+                    android:id="@+id/diseaseLinear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <!-- <ImageView -->
+                    <!-- android:id="@+id/fileImageView" -->
+                    <!-- android:layout_width="20dp" -->
+                    <!-- android:layout_height="20dp" -->
+                    <!-- android:src="@drawable/info_g32" /> -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/fileTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Uploaded Images"
+                            android:textColor="@color/light_black"
+                            android:textSize="15sp" />
+
+                        <!-- <TextView -->
+                        <!-- android:id="@+id/filedescriptionTV" -->
+                        <!-- android:layout_width="wrap_content" -->
+                        <!-- android:layout_height="wrap_content" -->
+                        <!-- android:layout_marginLeft="25dp" -->
+                        <!-- android:text="Choose Image" -->
+                        <!-- android:textColor="@color/blue" -->
+                        <!-- android:textSize="15sp" /> -->
+
+                        <ViewSwitcher
+                            android:id="@+id/viewSwitcher"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="8dp" >
+
+                            <com.medical.utils.ExpandableHeightGridView
+                                android:id="@+id/gridGallery"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top"
+                                android:layout_marginBottom="-10dp"
+                                android:layout_marginLeft="-10dp"
+                                android:layout_marginRight="-10dp"
+                                android:layout_marginTop="-10dp"
+                                android:horizontalSpacing="-10dp"
+                                android:numColumns="3"
+                                android:padding="0dp"
+                                android:verticalSpacing="-15dp"
+                                tools:listitem="@layout/gallery_item" />
+                        </ViewSwitcher>
+
+                        <LinearLayout
+                            android:id="@+id/imageViewLinearLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal" >
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- </LinearLayout> -->
+                <!-- </android.support.v7.widget.CardView> -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="60dp" -->
+                <!-- android:orientation="horizontal" -->
+                <!-- android:layout_gravity="bottom" -->
+                <!-- android:padding="10dp" > -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/takePicTextView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_weight="1" -->
+                <!-- android:gravity="center" -->
+                <!-- android:layout_marginRight="20dp" -->
+                <!-- android:text="TakePicture" /> -->
+
+
+                <!-- <View -->
+                <!-- android:layout_width="0.8dp" -->
+                <!-- android:layout_height="match_parent" -->
+                <!-- android:layout_gravity="center" -->
+                <!-- android:layout_marginBottom="6dp" -->
+                <!-- android:layout_weight="0" -->
+                <!-- android:layout_marginTop="6dp" -->
+                <!-- android:background="#848484" /> -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/choosePicTextView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_weight="1" -->
+                <!-- android:text="Choose For Gallery" /> -->
+                <!-- </LinearLayout> -->
+
+
+                <!-- <Button -->
+                <!-- android:id="@+id/sendRequestButton" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_gravity="center" -->
+                <!-- android:layout_marginBottom="15dp" -->
+                <!-- android:layout_marginLeft="10dp" -->
+                <!-- android:layout_marginRight="10dp" -->
+                <!-- android:layout_marginTop="15dp" -->
+                <!-- android:text="@string/sendRequestString" -->
+                <!-- android:textColor="@color/white" /> -->
+
+
+                <!-- <com.github.alexkolpa.fabtoolbar.FabToolbar -->
+                <!-- android:id="@+id/fab_toolbar" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_gravity="bottom" > -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="100dp" -->
+                <!-- android:layout_gravity="bottom" -->
+                <!-- android:orientation="horizontal" -->
+                <!-- android:padding="10dp" > -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_weight="1" -->
+                <!-- android:orientation="vertical" > -->
+
+
+                <!-- <ImageView -->
+                <!-- android:id="@+id/takePictureImageView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_gravity="center_horizontal" -->
+                <!-- android:src="@drawable/ic_launcher" /> -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/takePicTextView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_gravity="center_horizontal" -->
+                <!-- android:layout_marginRight="20dp" -->
+                <!-- android:layout_weight="1" -->
+                <!-- android:text="Take Picture" /> -->
+                <!-- </LinearLayout> -->
+
+
+                <!-- <View -->
+                <!-- android:layout_width="0.8dp" -->
+                <!-- android:layout_height="match_parent" -->
+                <!-- android:layout_marginBottom="6dp" -->
+                <!-- android:layout_marginTop="6dp" -->
+                <!-- android:layout_weight="0" -->
+                <!-- android:background="@color/white" /> -->
+                <!-- </LinearLayout> -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_weight="1" -->
+                <!-- android:orientation="vertical" > -->
+
+
+                <!-- <ImageView -->
+                <!-- android:id="@+id/chooseFromGallery" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_gravity="center_horizontal" -->
+                <!-- android:src="@drawable/ic_launcher" /> -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/choosePicTextView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_gravity="center_horizontal" -->
+                <!-- android:layout_weight="1" -->
+                <!-- android:text="Choose For Gallery" /> -->
+                <!-- </LinearLayout> -->
+                <!-- </LinearLayout> -->
+                <!-- </com.github.alexkolpa.fabtoolbar.FabToolbar> -->
+            </LinearLayout>
+        </ScrollView>
+
+        <com.github.alexkolpa.fabtoolbar.FabToolbar
+            android:id="@+id/fab_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <LinearLayout
+                    android:id="@+id/takePictureLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/takePictureImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_photo_camera_white_36dp" />
+
+                    <TextView
+                        android:id="@+id/takePicTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/takePicString"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0.8dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_weight="0"
+                    android:background="@color/white" />
+                <!-- </LinearLayout> -->
+
+                <LinearLayout
+                    android:id="@+id/chooseFromGalleryLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/chooseFromGallery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_photo_library_white_36dp" />
+
+                    <TextView
+                        android:id="@+id/choosePicTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/choosePicString"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.github.alexkolpa.fabtoolbar.FabToolbar>
+    </FrameLayout>
+    <!-- </ScrollView> -->
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Kinjal\\Company Profile\\Sample app source code\\DoctFin\\app\\build\\intermediates\\res\\merged\\debug\\transition\\activity_fade.xml",
+        "source": "D:\\Kinjal\\Company Profile\\Sample app source code\\DoctFin\\app\\src\\main\\res\\transition\\activity_fade.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\Company Profile\\Sample app source code\\DoctFin\\app\\build\\intermediates\\res\\merged\\debug\\transition\\activity_slide.xml",
+        "source": "D:\\Kinjal\\Company Profile\\Sample app source code\\DoctFin\\app\\src\\main\\res\\transition\\activity_slide.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\debug\\transition\\activity_fade.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\transition\\activity_fade.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\debug\\transition\\activity_slide.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\transition\\activity_slide.xml"
+    }
+]

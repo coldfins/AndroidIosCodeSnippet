@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\date_and_time.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\date_and_time.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\map_support.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\map_support.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\custom_gallery.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\custom_gallery.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\user_registration_form_two.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\user_registration_form_two.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\splash_screen.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\splash_screen.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\user_registration.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\user_registration.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\select_specialist_sub_cat.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\select_specialist_sub_cat.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\select_specialist_type.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\select_specialist_type.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\add_reminder.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\add_reminder.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\terms_and_cond.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\terms_and_cond.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\doctor_info_profile.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\doctor_info_profile.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\doctor_list_map_view.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\doctor_list_map_view.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\display_doctor_list.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\display_doctor_list.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\dieases_image.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\dieases_image.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\change_password.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\change_password.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\patient_appoint_ment_detail.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\patient_appoint_ment_detail.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\user_profile_menu.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\user_profile_menu.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\user_home.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\user_home.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\doctor_profile.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\doctor_profile.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\about_us.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\about_us.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\map.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\map.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\user_registration_form_one.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\user_registration_form_one.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\menu\\add_appointment.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\menu\\add_appointment.xml"
+    }
+]

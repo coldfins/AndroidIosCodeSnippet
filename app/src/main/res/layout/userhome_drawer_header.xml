@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/colorPrimary" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/headerNameTextView" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginLeft="16dp" -->
+        <!-- android:layout_marginStart="16dp" -->
+        <!-- android:text="Raj Patel" -->
+        <!-- android:textColor="#ffffff" -->
+        <!-- android:textSize="14sp" -->
+        <!-- android:textStyle="bold" /> -->
+
+        <com.medical.utils.CircleImageView
+            android:id="@+id/userImageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dummymale" />
+
+        <TextView
+            android:id="@+id/headerEmailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="raj@yahoo.com"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/signOutImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:visibility="gone"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/logout_32" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--     hover -->
+<!--     <item android:drawable="@drawable/" android:state_checked="true" android:state_window_focused="false"/> -->
+<!--     normal -->
+<!--     <item android:drawable="@drawable/radio_normal" android:state_checked="false" android:state_window_focused="false"/> -->
+<!--     active -->
+<!--     <item android:drawable="@drawable/radio_active" android:state_checked="true" android:state_pressed="true"/> -->
+<!--     active -->
+<!--     <item android:drawable="@drawable/radio_active" android:state_checked="false" android:state_pressed="true"/> -->
+<!--     hover -->
+<!--     <item android:drawable="@drawable/radio_hover" android:state_checked="true" android:state_focused="true"/> -->
+<!--     normal off -->
+<!--     <item android:drawable="@drawable/radio_normal_off" android:state_checked="false" android:state_focused="true"/> -->
+<!--     normal -->
+<!--     <item android:drawable="@drawable/radio_normal" android:state_checked="false"/> -->
+    
+<!--     hover -->
+<!--     <item android:drawable="@drawable/radio_hover" android:state_checked="true"/> -->
+
+</selector>

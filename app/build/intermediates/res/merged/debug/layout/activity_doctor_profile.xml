@@ -1,0 +1,462 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.medical.doctfin.DoctorProfileActivity" >
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/displayToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" >
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/scrollview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/basicInfoCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                card_view:cardCornerRadius="0dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    android:padding="18dp" >
+
+                    <com.medical.utils.CircleImageView
+                        android:id="@+id/profilePicImageView"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/reguserimage" />
+
+                    <TextView
+                        android:id="@+id/doctNameTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/noDataString"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/doctDegreeTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/noDataString"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/doctSubCategoryTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/noDataString"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/doctCategoryTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/noDataString"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/experianceYrTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/noDataString"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp" >
+
+                <!-- <android.support.v7.widget.CardView -->
+                <!-- xmlns:card_view="http://schemas.android.com/apk/res-auto" -->
+                <!-- android:id="@+id/generalInfoCardView" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- card_view:cardElevation="0dp" -->
+                <!-- card_view:cardMaxElevation="0dp" > -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/consultFeeImageView"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/rupee_g32" />
+
+                    <TextView
+                        android:id="@+id/consultFeeTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:text="@string/noDataString"
+                        android:textColor="@color/dark_black"
+                        android:textSize="15sp" />
+                </LinearLayout>
+                <!-- </android.support.v7.widget.CardView> -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:orientation="vertical" > -->
+
+
+                <!-- <android.support.v7.widget.CardView -->
+                <!-- xmlns:card_view="http://schemas.android.com/apk/res-auto" -->
+                <!-- android:id="@+id/contactNoCardView" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_margin="5dp" -->
+                <!-- android:elevation="10dp" -->
+                <!-- app:cardCornerRadius="2dp" -->
+                <!-- card_view:contentPadding="10dp" > -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="match_parent" -->
+                <!-- android:orientation="vertical" > -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/phoneTextView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:text="Phone" -->
+                <!-- android:textSize="14dp" /> -->
+
+
+                <!-- <View -->
+                <!-- android:id="@+id/phoneView" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="0.5dp" -->
+                <!-- android:layout_marginTop="5dp" -->
+                <!-- android:background="#0094DA" /> -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="match_parent" -->
+                <!-- android:orientation="horizontal" > -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/doctContactNoTV" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginTop="5dp" -->
+                <!-- android:fontFamily="sans-serif-medium" -->
+                <!-- android:text="ContactNo            :" -->
+                <!-- android:textSize="12dp" /> -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/doctContactNoTextView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginTop="5dp" -->
+                <!-- android:text="@string/noDataString" -->
+                <!-- android:textSize="12dp" /> -->
+                <!-- </LinearLayout> -->
+                <!-- </LinearLayout> -->
+                <!-- </android.support.v7.widget.CardView> -->
+                <!-- </LinearLayout> -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:orientation="vertical" > -->
+
+
+                <!-- <android.support.v7.widget.CardView -->
+                <!-- xmlns:card_view="http://schemas.android.com/apk/res-auto" -->
+                <!-- android:id="@+id/addressCardView" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_margin="5dp" -->
+                <!-- android:elevation="10dp" -->
+                <!-- app:cardCornerRadius="2dp" -->
+                <!-- card_view:contentPadding="10dp" > -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="match_parent" -->
+                <!-- android:orientation="vertical" -->
+                <!-- android:textSize="14dp" > -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/addressTextView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:text="Address" /> -->
+
+
+                <!-- <View -->
+                <!-- android:id="@+id/addressView" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="0.5dp" -->
+                <!-- android:layout_marginTop="5dp" -->
+                <!-- android:background="#0094DA" /> -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/doctAddressTextView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginTop="5dp" -->
+                <!-- android:text="@string/noDataString" -->
+                <!-- android:textSize="12dp" /> -->
+                <!-- </LinearLayout> -->
+                <!-- </android.support.v7.widget.CardView> -->
+                <!-- </LinearLayout> -->
+
+
+                <!-- <android.support.v7.widget.CardView -->
+                <!-- xmlns:card_view="http://schemas.android.com/apk/res-auto" -->
+                <!-- android:id="@+id/mapCardView" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- card_view:cardElevation="0dp" -->
+                <!-- card_view:cardMaxElevation="0dp" > -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/doctAddressImageView"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/location_g32" />
+
+                        <TextView
+                            android:id="@+id/doctAddressTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp"
+                            android:text="@string/noDataString"
+                            android:textColor="@color/dark_black"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <!-- <fragment -->
+                    <!-- android:id="@+id/mapFragment" -->
+                    <!-- android:layout_width="match_parent" -->
+                    <!-- android:layout_height="180dp" -->
+                    <!-- android:layout_marginLeft="45dp" -->
+                    <!-- class="com.google.android.gms.maps.SupportMapFragment" /> -->
+                </LinearLayout>
+                <!-- </android.support.v7.widget.CardView> -->
+                <!-- <android.support.v7.widget.CardView -->
+                <!-- xmlns:card_view="http://schemas.android.com/apk/res-auto" -->
+                <!-- android:id="@+id/calenderCardView" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- card_view:cardElevation="0dp" -->
+                <!-- card_view:cardMaxElevation="0dp" > -->
+
+
+                <!-- <LinearLayout -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="match_parent" -->
+                <!-- android:layout_marginTop="3dp" -->
+                <!-- android:orientation="horizontal" -->
+                <!-- android:paddingBottom="15dp" -->
+                <!-- android:paddingTop="10dp" > -->
+
+
+                <!-- <ImageView -->
+                <!-- android:id="@+id/calenderImageView" -->
+                <!-- android:layout_width="20dp" -->
+                <!-- android:layout_height="20dp" -->
+                <!-- android:src="@drawable/calender_2x" /> -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/calenderTextView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginLeft="25dp" -->
+                <!-- android:text="@string/noDataString" -->
+                <!-- android:textColor="@color/blue" -->
+                <!-- android:textSize="15sp" /> -->
+                <!-- </LinearLayout> -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp" >
+
+                    <ImageView
+                        android:id="@+id/timeslotImageView"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/clock_g32" />
+
+                    <TextView
+                        android:id="@+id/timeslotTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:text="Clinic Time"
+                        android:textColor="@color/dark_black"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <!-- <LinearLayout -->
+                <!-- android:id="@+id/timeslotLinearLayout" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="10dp" -->
+                <!-- android:orientation="vertical" > -->
+
+                <TextView
+                    android:id="@+id/timeAvailableTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Time"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+                <!-- </LinearLayout> -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/reasonTextView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginTop="15dp" -->
+                <!-- android:text="What&apos;s Reason For Your Visit?" -->
+                <!-- android:textColor="@color/light_black" -->
+                <!-- android:textSize="12sp" /> -->
+
+
+                <!-- <Spinner -->
+                <!-- android:id="@+id/subCatSpinner" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginTop="8dp" /> -->
+
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/haveVisitedTextView" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginTop="15dp" -->
+                <!-- android:text="Have You Visited This Doctor Before?" -->
+                <!-- android:textColor="@color/light_black" -->
+                <!-- android:textSize="12sp" /> -->
+
+
+                <!-- <RadioGroup -->
+                <!-- android:id="@+id/haveVisitedRadioGroup" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:layout_marginTop="8dp" -->
+                <!-- android:orientation="vertical" > -->
+
+
+                <!-- <RadioButton -->
+                <!-- android:id="@+id/oldPatientRadioButton" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:checked="true" -->
+                <!-- android:text="I&apos;m a new Patient." -->
+                <!-- android:textColor="@color/dark_black" -->
+                <!-- android:textSize="15sp" /> -->
+
+
+                <!-- <RadioButton -->
+                <!-- android:id="@+id/newPatientRadioButton" -->
+                <!-- android:layout_width="wrap_content" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:text="I&apos;ve Seen this doctor before." -->
+                <!-- android:textColor="@color/dark_black" -->
+                <!-- android:textSize="15sp" /> -->
+                <!-- </RadioGroup> -->
+
+
+                <!-- </android.support.v7.widget.CardView> -->
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bookAppointmentButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="16dp"
+                android:elevation="3dp"
+                android:text="@string/bookAnAppointmentString"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

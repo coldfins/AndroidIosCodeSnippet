@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/findDoctOrSpecTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Find Doctor Or Specialist"
+                    android:textColor="@color/dark_black"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/selectSpecialistTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Specialist"
+                        android:textColor="@color/light_black"
+                        android:textSize="14sp" />
+
+                    <Spinner
+                        android:id="@+id/specialistSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:dropDownVerticalOffset="35dp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/selectSpecialistView"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/selectSubSpecialistTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="Procedure"
+                        android:textColor="@color/light_black"
+                        android:textSize="14sp" />
+
+                    <Spinner
+                        android:id="@+id/subSpecialistSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:dropDownVerticalOffset="35dp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/selectSubSpecialistView"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/selectDateTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:text="On Date"
+                        android:textColor="@color/light_black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/selectDateTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:text="@string/selectDate"
+                        android:textColor="@color/dark_black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/selectDateView"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/selectLocationTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="In Location"
+                    android:textColor="@color/light_black"
+                    android:textSize="14sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/selectLocationEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/selectLocation"
+                    android:nextFocusLeft="@id/selectLocationEditText"
+                    android:nextFocusUp="@id/selectLocationEditText"
+                    android:singleLine="true"
+                    android:textColor="@color/dark_black"
+                    android:textColorHint="@color/light_black" >
+                </AutoCompleteTextView>
+
+                <View
+                    android:id="@+id/selectLocationView"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorPrimary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/findDoctorButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp"
+                    android:elevation="3dp"
+                    android:text="@string/findDoctor"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

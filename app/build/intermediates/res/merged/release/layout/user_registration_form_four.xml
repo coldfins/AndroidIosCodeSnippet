@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="15dp"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+      
+        <RadioGroup
+            android:id="@+id/genderRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/maleRadioButton"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:background="@drawable/bg_radiobutton"
+                android:button="@drawable/maleradio"
+                android:checked="true"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/femaleRadioButton"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/bg_radiobutton"
+                android:button="@drawable/femaleradio"
+                android:text="Female" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_round_corner_button"
+            android:text="Next"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

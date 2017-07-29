@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.medical.doctfin.CustomGalleryActivity" >
+
+    <item
+        android:id="@+id/action_picgallery"
+        android:orderInCategory="100"
+        android:title="@string/action_map"
+        android:icon="@drawable/tick"
+        app:showAsAction="ifRoom"/>
+
+</menu>

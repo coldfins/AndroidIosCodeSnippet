@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "D:\\Kinjal\\Company Profile\\Sample app source code\\DoctFin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "C:\\Users\\ved_pc\\.android\\build-cache\\7940c7fe79174fdbf1294fe38c5ec34209850bc0\\output\\res\\values-w360dp\\values-w360dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endColumn": 54,
+                        "endOffset": 282
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "C:\\Users\\ved_pc\\.android\\build-cache\\7940c7fe79174fdbf1294fe38c5ec34209850bc0\\output\\res\\values-w360dp\\values-w360dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 232,
+                        "endColumn": 54,
+                        "endOffset": 282
+                    }
+                }
+            }
+        ]
+    }
+]

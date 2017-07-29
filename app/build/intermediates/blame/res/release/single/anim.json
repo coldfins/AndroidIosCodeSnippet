@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\a8c12a906e9bfaa4dff76269003c048758437048\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\fadein.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\anim\\fadein.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\7940c7fe79174fdbf1294fe38c5ec34209850bc0\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\7940c7fe79174fdbf1294fe38c5ec34209850bc0\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\7940c7fe79174fdbf1294fe38c5ec34209850bc0\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\7940c7fe79174fdbf1294fe38c5ec34209850bc0\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\a8c12a906e9bfaa4dff76269003c048758437048\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\slid_in_bottom.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\anim\\slid_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\exit_to_right.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\anim\\exit_to_right.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\7940c7fe79174fdbf1294fe38c5ec34209850bc0\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\7940c7fe79174fdbf1294fe38c5ec34209850bc0\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\exit_to_left.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\anim\\exit_to_left.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\fab_press_elevation.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\anim\\fab_press_elevation.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\7940c7fe79174fdbf1294fe38c5ec34209850bc0\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\slide_in_left.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\enter_from_left.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\anim\\enter_from_left.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\enter_from_right.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\anim\\enter_from_right.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\a8c12a906e9bfaa4dff76269003c048758437048\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\animation_enter.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\anim\\animation_enter.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\7940c7fe79174fdbf1294fe38c5ec34209850bc0\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\fadeout.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\anim\\fadeout.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\a8c12a906e9bfaa4dff76269003c048758437048\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\animation_leave.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\anim\\animation_leave.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\7940c7fe79174fdbf1294fe38c5ec34209850bc0\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\ved_pc\\.android\\build-cache\\7940c7fe79174fdbf1294fe38c5ec34209850bc0\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    }
+]

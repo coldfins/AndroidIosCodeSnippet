@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:elevation="15dp"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <!-- <Spinner -->
+        <!-- android:id="@+id/countrySpinner" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="5dp" -->
+        <!-- android:background="@drawable/bg_spinner" /> -->
+
+
+        <!-- <Spinner -->
+        <!-- android:id="@+id/stateSpinner" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="5dp" -->
+        <!-- android:background="@drawable/bg_spinner" /> -->
+
+
+        <!-- <Spinner -->
+        <!-- android:id="@+id/citySpinner" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="5dp" -->
+        <!-- android:background="@drawable/bg_spinner" /> -->
+
+        <EditText
+            android:id="@+id/addressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edittext"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/finishButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_round_corner_button"
+            android:text="Finish"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

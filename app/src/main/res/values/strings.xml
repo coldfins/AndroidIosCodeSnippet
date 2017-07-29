@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DoctFin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_registration">UserRegistrationActivity</string>
+    <string name="title_activity_user_registration_form_one_fragment">UserRegistrationFormOneFragment</string>
+    <string name="title_activity_user_registration_form_two_fragment">UserRegistrationFormTwoFragment</string>
+    <string name="EnterPassword">Password</string>
+    <string name="selectSpecialist">Select Specialist</string>
+    <string name="enterFirstNameString">First Name</string>
+    <string name="enterUserNameString">User Name</string>
+    <string name="enterLastNameString">Last Name</string>
+    <string name="selectLocation">Location</string>
+    <string name="contactNoString">Contact No</string>
+    <string name="signUpString">SIGN UP</string>
+    <string name="editProfileString">Edit Profile</string>
+    <string name="selectDate">Select Date</string>
+    <string name="genderString">Gender:</string>
+    <string name="maleString">Male</string>
+    <string name="femaleString"> Female</string>
+    <string name="findDoctor">FIND DOCTOR</string>
+    <string name="settingsString">Settings</string>
+    <string name="alreagyAccString">ALREADY HAVE AN ACCOUNT? </string>
+    <string name="noDataString"></string>
+    <string name="nextString">Next</string>
+    <string name="enterEmailString">Email</string>
+    <string name="title_activity_user_home">UserHomeActivity</string>
+    <string name="title_activity_select_specialist_type">SelectSpecialistType</string>
+    <string name="title_activity_select_specialist_sub_cat">SelectSpecialistSubCatActivity</string>
+    <string name="fa_icon_findDoctor">&#xf002;</string>
+    <string name="fa_icon_medicalTeam">&#xf08a;</string>
+    <string name="fa_icon_passAppoinment">&#xf073;</string>
+    <string name="fa_clock_o">&#xf017;</string>
+    <string name="fa_icon_settings">&#xf013;</string>
+    <string name="title_activity_display_doctor_list">DisplayDoctorListActivity</string>
+    <string name="title_activity_doctor_profile">DoctorProfileActivity</string>
+    <string name="title_activity_map_support_fragment">MapSupportFragmentActivity</string>
+    <string name="title_activity_map_fragment">MapFragmentActivity</string>
+    <string name="get_data_dialog_message">MapDisplay</string>
+    <string name="title_activity_add_appointment">AddAppointmentActivity</string>
+    <string name="title_activity_custom_gallery">CustomGalleryActivity</string>
+    <string name="addAppointmentString">AddAppointMent</string>
+    <string name="doctNameString">DoctName</string>
+    <string name="appWithString">Appointment With</string>
+    <string name="doctAddressString">DoctAddress</string>
+    <string name="doctAppointmentTimeString">DoctAppointmentTime</string>
+    <string name="cancelString">CANCEL</string>
+    <string name="addReminder">ADD REMINDER</string>
+    <string name="action_done">Done</string>
+    <string name="action_map">View Map</string>
+    <string name="bookAnAppointmentString">BOOK AN APPOINTMENT</string>
+    <string name="sendRequestString">SEND REQUEST</string>
+    <string name="title_activity_doctor_info_profile">DoctorInfoProfileActivity</string>
+    <string name="title_activity_doctor_list_map_view">DoctorListMapView</string>
+    <string name="title_activity_date_and_time">DateAndTimeActivity</string>
+    <string name="title_activity_add_reminder">AddReminderActivity</string>
+    <string name="reasonString">What\'s Reason For Your Visit?</string>
+    <string name="availableTodayString">Available Today</string>
+    <string name="noAvailableTodayString">Doctor Not Available</string>
+    <string name="visitedString">Have You Visited This Doctor Before?</string>
+    <string name="newPatientString">I\'m a new Patient.</string>
+    <string name="oldPatientString">I\'ve Seen this doctor before.</string>
+    <string name="takePicString">Take Picture</string>
+    <string name="choosePicString">Choose For Gallery</string>
+    <string name="addressString">Address</string>
+    <string name="selectHourString">Select Hour</string>
+    <string name="reminderMessageString">Reminder Message</string>
+    <string name="setReminderString">SET REMINDER</string>
+    <string name="distanceString">Distance</string>
+    <string name="forgotPasswordString">Forgot Password?</string>
+    <string name="loginString">LOGIN</string>
+    <string name="saveString">SAVE</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_patient_appoint_ment_detail">PatientAppointMentDetail</string>
+    <string name="internet_error_string">Something went wrong...please try later</string>
+    <string name="internet_error_header">Internet Connection Problem</string>
+    <string name="title_activity_dieases_image">DieasesImageActivity</string>
+    <string name="aboutUsTextView">About Us - Patient\n\n\n
+DoctFin helps you find and book appointments with doctors and clinics in your city. DoctFin lists many verified doctors and clinic profiles, so you have the widest range of options while making a choice.
+\n\nSEARCH - Find and book\n
+
+\n- Search and book appointments with doctors based on area, availability, date , specific speciality and reason.
+\n- View list of doctors based on search details and get their actual location through map.
+\n- Book an appointment with the doctor of your choice by supplying date time and reason of appointment.\n
+
+\nMEDICAL TEAM\n
+
+\n- DoctFin lists many verified doctors and clinic profiles, so you have the widest range of options while making a choice.\n
+
+\nAPPOINTMENTS\n
+
+\n- Filtering of appointments based on Today/Future/Past date.
+\n- Can delete the appointment on wish and can set reminder providing notification prompting with date, time and message.\n
+
+\nYou can find doctors on DoctFin:
+\n- Dental Care
+\n- Skin Care
+\n- Neural Health
+\n- Ear Nose Throat Care</string>
+    <string name="AboutUs">About Us - Patient</string>
+    <string name="AboutUstwo">DoctFin helps you find and book appointments with doctors and clinics in your city. DoctFin lists many verified doctors and clinic profiles, so you have the widest range of options while making a choice.</string>
+    <string name="AboutUsthree">SEARCH - Find and book</string>
+    <string name="AboutUsfour">- Search and book appointments with doctors based on area, availability, date , specific speciality and reason.
+\n- View list of doctors based on search details and get their actual location through map.
+\n- Book an appointment with the doctor of your choice by supplying date time and reason of appointment.</string>
+    <string name="AboutUsfive">MEDICAL TEAM</string>
+    <string name="AboutUssix">- DoctFin lists many verified doctors and clinic profiles, so you have the widest range of options while making a choice.</string>
+    <string name="AboutUsseven">APPOINTMENTS</string>
+    <string name="AboutUseight">- Filtering of appointments based on Today/Future/Past date.
+\n- Can delete the appointment on wish and can set reminder providing notification prompting with date, time and message.\n</string>
+    <string name="AboutUsnine">You can find doctors on DoctFin:</string>
+    <string name="AboutUsten">- Dental Care
+\n- Skin Care
+\n- Neural Health
+\n- Ear Nose Throat Care</string>
+    <string name="termsAndCondition">GENERAL\n
+By installing the Application (as defined below), you agree to be bound by these terms of use (“appterms”). Please review them carefully before installation and/or acceptance.
+
+\n\nDATA PROTECTION
+Any personal information you supply to DoctFin when using the Application will be used by DoctFin in accordance with its Privacy Policy.
+
+\n\nSYSTEM REQUIREMENTS
+
+\n\na)  In order to use the Application, you are required to have a compatible mobile telephone or handheld device, internet access, and the necessary minimum specifications.
+
+b)  The Software Requirements are as follows: Mac OS devices ; Language: English.
+
+\n\nAVAILABILITY
+
+\n\nApplication is provided over the internet and mobile networks and so the quality and availability of the Application may be affected .</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_terms_and_cond">TermsAndCondActivity</string>
+
+    
+      <string name="general">GENERAL</string>
+    <string name="generaltwo">By installing the Application (as defined below), you agree to be bound by these terms of use (“appterms”). Please review them carefully before installation and/or acceptance.</string>
+     <string name="DATAPROTECTION">DATA PROTECTION</string>
+      <string name="DATAPROTECTIONtwo">Any personal information you supply to DoctFin when using the Application will be used by DoctFin in accordance with its Privacy Policy.</string>
+       <string name="SYSTEMREQUIREMENTS">SYSTEM REQUIREMENTS</string>
+        <string name="SYSTEMREQUIREMENTStwo">a)  In order to use the Application, you are required to have a compatible mobile telephone or handheld device, internet access, and the necessary minimum specifications.
+
+\n\nb)  The Software Requirements are as follows: Android devices ; Language: English.</string>
+         <string name="AVAILABILITY">AVAILABILITY</string>
+          <string name="AVAILABILITYtwo">Application is provided over the internet and mobile networks and so the quality and availability of the Application may be affected</string>
+    
+</resources>

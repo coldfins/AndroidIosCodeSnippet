@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Kinjal\Company Profile\Sample app source code\DoctFin\app\libs\universal-image-loader-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f667a2f4f27542fe11a6781f5f7ac572d27afcec">
+        <dex dex="D:\Kinjal\Company Profile\Sample app source code\DoctFin\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.0_0935ca96cf95560d1dfc42cd2983c82e400dc69e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Kinjal\BestDoc\Patient\DoctFin\app\libs\universal-image-loader-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f667a2f4f27542fe11a6781f5f7ac572d27afcec">
+        <dex dex="D:\Kinjal\BestDoc\Patient\DoctFin\app\build\intermediates\transforms\dex\release\folders\1000\2\universal-image-loader-1.9.0_0cab6859228c510d8b50e5682aa491eb85064f1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Kinjal\BestDoc\Patient\DoctFin\app\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Kinjal\BestDoc\Patient\DoctFin\app\build\intermediates\transforms\dex\release\folders\1000\2\picasso-2.5.2_739de599c3225f211b816f71d59545749fc57a7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Kinjal\Company Profile\Sample app source code\DoctFin\app\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Kinjal\Company Profile\Sample app source code\DoctFin\app\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.5.2_bf9d1bf3f81a18c7bb123543dd96f7e4960c578b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Kinjal\Company Profile\Sample app source code\DoctFin\app\libs\retrofit-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="D:\Kinjal\Company Profile\Sample app source code\DoctFin\app\build\intermediates\transforms\dex\debug\folders\1000\2\retrofit-1.9.0_5dd675b07ad81051ee7395d2a73db2229a081440\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Kinjal\BestDoc\Patient\DoctFin\app\libs\retrofit-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="D:\Kinjal\BestDoc\Patient\DoctFin\app\build\intermediates\transforms\dex\release\folders\1000\2\retrofit-1.9.0_abbece61eb485f83db566e353aa47b6d6cec009b\classes.dex" />
+    </item>
+
+</items>

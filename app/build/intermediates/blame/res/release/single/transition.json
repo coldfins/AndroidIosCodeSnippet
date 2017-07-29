@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\transition\\activity_fade.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\transition\\activity_fade.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\build\\intermediates\\res\\merged\\release\\transition\\activity_slide.xml",
+        "source": "D:\\Kinjal\\BestDoc\\Patient\\DoctFin\\app\\src\\main\\res\\transition\\activity_slide.xml"
+    }
+]
