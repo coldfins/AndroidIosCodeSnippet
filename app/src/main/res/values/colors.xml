@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary11">#3F51B5</color>
+    <color name="colorPrimary">#4bd4e6</color>
+    <color name="colorPrimaryDark22">#303F9F</color>
+    <color name="colorPrimaryDark">#3fb4c5</color>
+    <color name="colorAccent222">#FF4081</color>
+    <color name="colorAccent">#4bd4e6</color><!--#800d1616-->
+    <color name="colorAccent_black">#800d1616</color>
+
+
+    <color name="black_header">#4d4d4d</color>
+    <color name="black_transparent">#ad000000</color>
+    <color name="gray_back">#d3d6db</color>
+    <color name="gray_light">#dddede</color>
+    <color name="black_username">#191919</color>
+    <color name="grey_time">#9b9f9f</color>
+
+
+    <color name="edit_image">#FF9800</color>
+
+
+
+
+    <!-- POST SHARE-->
+    <color name="dashboard_separator">#D7D7D7</color>
+
+
+    <color name="no_data_color">#a94442</color>
+
+
+
+</resources>

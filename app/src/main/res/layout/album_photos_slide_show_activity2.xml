@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layoutImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <!--<ImageView
+            android:id="@+id/crop_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/unknown_image"
+            android:visibility="visible"
+            android:layout_centerInParent="true"/>-->
+
+        <com.post.wall.wallpostapp.utility.viewpager.TouchImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/crop_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/imgThumbnail"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/video_play" />
+
+    </RelativeLayout>
+
+</LinearLayout>

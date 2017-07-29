@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutPhotoSelectionMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4D000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+
+
+            <LinearLayout
+                android:id="@+id/layoutTakePhoto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/take_photo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Take Photo"
+                    android:textColor="@color/black_header" />
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/layoutYourPhotos"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/your_photos" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Photos"
+                    android:textColor="@color/black_header" />
+            </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

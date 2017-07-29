@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ved.topsicab.Edit_profileActivity">
+    <item
+        android:title="Menu items"
+        app:showAsAction="never">
+
+        <item
+            android:id="@+id/action_referesh"
+            android:icon="@drawable/refresh"
+            android:title="Refresh" />
+
+        <item
+            android:id="@+id/action_setting"
+            android:icon="@drawable/refresh"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/action_exit"
+            android:icon="@mipmap/ic_exit_white"
+            android:title="Exit" />
+
+    </item>
+
+</menu>

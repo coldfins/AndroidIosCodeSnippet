@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.post.wall.wallpostapp"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    testCompile 'junit:junit:4.12'
+    compile 'pl.bclogic:pulsator4droid:1.0.3'
+    compile files('libs/retrofit-1.9.0.jar')
+    //    compile project(':UniversalLib')
+    compile 'net.steamcrafted:materialiconlib:1.1.1'
+    compile 'com.google.code.gson:gson:2.6.2'
+    //compile project(':SlidingTab_library')
+    compile files('libs/picasso-2.5.2.jar')
+    //    compile files('libs/httpmime-4.0.1.jar')
+    //    compile files('libs/apache-mime4j.jar')
+    compile files('libs/httpmime-4.0.1.jar')
+    compile files('libs/okhttp-2.3.0.jar')
+    compile files('libs/apache-mime4j-0.6.jar')
+    compile project(':NineOldAndroid_library')
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+    compile 'com.github.orangegangsters:swipy:1.2.3@aar'
+    compile 'com.android.support:cardview-v7:24.0.0'
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+    compile files('libs/volley.jar')
+    //    compile project(path: ':UniversalLib')
+    compile project(':UniversalLib')
+}

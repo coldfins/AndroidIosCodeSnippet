@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/albumPhotoSlideShowMainRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.post.wall.wallpostapp.utility.viewpager.ExtendedViewPager
+        android:id="@+id/pagerAlbumPhotoShow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+
+    <!--android:layout_marginTop="24dp"-->
+ <LinearLayout
+        android:id="@+id/photoDetailsLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/layoutBottom"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:id="@+id/albumDetailsRelativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/view"
+            android:background="@color/black_header"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <com.post.wall.wallpostapp.utility.CircleImageView
+                android:id="@+id/imgAlbumUser"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_profile" />
+
+            <!--<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/imgAlbumUser"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtAlbumName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Album"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txtAlbumDesc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Album Date"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>-->
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

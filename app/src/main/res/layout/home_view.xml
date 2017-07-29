@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_back"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    tools:context="com.post.wall.wallpostapp.LoginActivity">
+
+    <!-- Login progress -->
+    <!--<ProgressBar
+        android:id="@+id/home_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />-->
+
+    <LinearLayout
+        android:id="@+id/home_feed_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+            android:id="@+id/swipyRefreshLayoutChatConverstion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srl_direction="bottom">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvPostList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:scrollbars="none" />
+        </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutProgress"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black_transparent"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/home_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

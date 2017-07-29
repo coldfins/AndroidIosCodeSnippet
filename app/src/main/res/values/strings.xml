@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">WallPostApp</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_dob">DOB</string>
+    <string name="prompt_mobile_number">Mobile Number</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="signup">Don\'t have an account? <b> Sign up! </b></string>
+    <string name="signin">Already have an account? <b> Sign in! </b></string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions." </string>
+    <string name="prompt_user_name">User Name</string>
+    <string name="share_post">Share today\'s update</string>
+    <string name="test">Testing</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string name="prompt_old_password">Old Password</string>
+    <string name="prompt_new_password">New Password</string>
+    <string name="prompt_confirm_new_password">Confirm Password</string>
+
+    <string name="error_invalid_old_password">Old password is too short</string>
+    <string name="error_invalid_new_password">New password is too short</string>
+    <string name="error_invalid_confirm_password">Confirm password is too short</string>
+    <string name="error_notmatch_confirm_password">Confirm password is not match</string>
+    <string name="error_notmatch_old_password">Your old password is incorrect</string>
+
+
+    <string name="validation_report_description">The description is required</string>
+
+
+    <string name="enter_your_email_below_to_resent_your_password_">Enter your email and we\'ll send you a secure link to reset your password reset.</string>
+    <string name="forgot_your_password_">Forgot your password?</string>
+    <string name="email_sent">E-Mail Sent!</string>
+    <string name="please_check_your_e_mail_to_confirm_your_password_reset_request_">Please check your e-mail to confirm your password reset request.</string>
+    <string name="go_to_back">GO BACK</string>
+
+
+</resources>

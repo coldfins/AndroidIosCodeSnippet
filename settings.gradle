@@ -1,0 +1,4 @@
+include ':app', ':NineOldAndroid_library', ':UniversalLib'//':UniversalLib',
+//project(':UniversalLib').projectDir = new File('app/libs/UniversalLib')
+project(':NineOldAndroid_library').projectDir = new File('app/libs/NineOldAndroid_library')
+project(':UniversalLib').projectDir = new File('app/libs/UniversalLib')

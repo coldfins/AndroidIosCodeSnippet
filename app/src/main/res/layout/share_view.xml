@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/add_post_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/layoutBottom"
+            android:layout_margin="10dp"
+            android:fillViewport="true"
+            android:isScrollContainer="false"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/layoutSubMiddle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <com.post.wall.wallpostapp.utility.CircleImageView
+                        android:id="@+id/imgDashboardUser"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/sign_up_camera_back"
+                        android:src="@drawable/img_profile" />
+
+
+                    <TextView
+                        android:id="@+id/txtUserName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:text="Username"
+                        android:textColor="@color/black_header"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edtComment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="top"
+                    android:hint="Write something..."
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/black_header"
+                    android:textColorHint="@color/black_header"
+                    android:textSize="18sp" />
+
+
+                <include
+                    android:id="@+id/layoutSharePostRow"
+                    layout="@layout/share_post_row_view"
+                    android:visibility="visible"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutProgress"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black_transparent"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/login_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
