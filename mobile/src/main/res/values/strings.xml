@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HouseCheap</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="imageDesc">Images</string>
+    <string name="icon_Rs">&#xf156;</string>
+    <string name="icon_right">&#xf105;</string>
+    <string name="icon_call">&#xf095;</string>
+    <string name="icon_msg">&#xf003;</string>
+    <string name="NoDataFoundProperty">No data found in Project list.</string>
+    <string name="PropertyDescription"> Property Description</string>
+    <string name="readMore">Read More</string>
+    <string name="builtUp">Built-Up Area</string>
+    <string name="construction">Year of COnstruction</string>
+    <string name="floor">Floor</string>
+    <string name="facing">Facing</string>
+    <string name="bathroom">Bathrooms</string>
+    <string name="parking">Parking</string>
+    <string name="contentDescription">Content Description</string>
+    <string name="ameneties">Amenities</string>
+    <string name="neighbourhood">Explore Neighbourhood</string>
+    <string name="closeBtn">&#xf057;</string>
+    <string name="propertyDetails"> Property Detail</string>
+    <string name="requestCallback">Request Callback</string>
+    <string name="touchLater">Want to get in touch later?</string>
+    <string name="title_activity_near_map">NearMapActivity</string>
+    <string name="normal">Normal</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="satellite">Satellite</string>
+    <string name="OoopsWish">Oops! No homes fit in your Wishlist.</string>
+    <string name="adding">We are adding more everyday.</string>
+    <string name="filter">Try changing filters.</string>
+
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>train_station</item>
+        <item>hospital</item>
+        <item>park</item>
+        <item>school</item>
+        <item>atm</item>
+        <item>restaurant</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Train Station</item>
+        <item>Hospital</item>
+        <item>Park</item>
+        <item>School</item>
+        <item>ATM</item>
+        <item>Restaurant</item>
+    </string-array>
+
+    <string-array name="nav_drawer_items">
+        <item>Projects</item>
+    </string-array>
+
+    <array name="nav_drawer_iconsGray">
+        <item>@drawable/projects_gray</item>
+    </array>
+
+    <array name="nav_drawer_iconsOrange">
+        <item>@drawable/projects_orange</item>
+    </array>
+
+    <string name="title_activity_user_contact_detail">UserContactDetailActivity</string>
+    <string name="title_activity_panorama">PanoramaActivity</string>
+    <string name="title_activity_panorama_activity">PanoramaViewActivity</string>
+    <string name="title_activity_search_property">SearchPropertyActivity</string>
+
+    <string name="bedrooms">Bedrooms</string>
+    <string name="priceRange">Price Range</string>
+    <string name="apply">Apply</string>
+    <string name="demo_min_label"></string>
+    <string name="demo_max_label"></string>
+
+</resources>

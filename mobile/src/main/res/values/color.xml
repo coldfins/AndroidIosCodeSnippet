@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="statusBarColor">#6cc54b</color>
+    <color name="toolBarColor">#6cc54b</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="tvGray">#6E6E6E</color>
+    <color name="lightOrang">#7DE258</color>
+    <color name="wishPageText">#A9A9A9</color>
+    <color name="sign_in_tvcolor">#949394</color>
+    <color name="getPropertyGray">#9C9C9C</color>
+    <color name="sidePanelGray">#222222</color>
+    <color name="LightWHITE">#E6E6E6</color>
+    <color name="bedRoomGray">#E2E2E2</color>
+    <color name="white">#fafafa</color>
+
+</resources>

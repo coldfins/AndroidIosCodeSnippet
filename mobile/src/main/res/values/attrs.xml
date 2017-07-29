@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsDividerWidth" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsPaddingMiddle" format="boolean" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsTabTextSize" format="dimension" />
+        <attr name="pstsTabTextColor" format="reference" />
+        <attr name="pstsTabTextStyle" format="reference">
+            <flag name="normal" value="0x0" />
+            <flag name="bold" value="0x1" />
+            <flag name="italic" value="0x2" />
+        </attr>
+        <attr name="pstsTabTextAllCaps" format="boolean" />
+        <attr name="pstsTabTextAlpha" format="integer" />
+        <attr name="pstsTabTextFontFamily" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorDisabled" format="color" />
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_icon" format="reference" />
+        <attr name="fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="fab_title" format="string" />
+        <attr name="fab_stroke_visible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeSeekBar">
+        <attr name="absoluteMinValue" format="integer|float" />
+        <attr name="absoluteMaxValue" format="integer|float" />
+        <attr name="singleThumb" format="boolean" />
+    </declare-styleable>
+
+    <attr name="SpinKitViewStyle" format="reference" />
+
+    <declare-styleable name="SpinKitView">
+        <attr name="SpinKit_Style">
+            <enum name="RotatingPlane" value="0" />
+            <enum name="DoubleBounce" value="1" />
+            <enum name="Wave" value="2" />
+            <enum name="WanderingCubes" value="3" />
+            <enum name="Pulse" value="4" />
+            <enum name="ChasingDots" value="5" />
+            <enum name="ThreeBounce" value="6" />
+            <enum name="Circle" value="7" />
+            <enum name="CubeGrid" value="8" />
+            <enum name="FadingCircle" value="9" />
+            <enum name="FoldingCube" value="10" />
+            <enum name="RotatingCircle" value="11" />
+        </attr>
+        <attr name="SpinKit_Color" format="color" />
+    </declare-styleable>
+
+</resources>

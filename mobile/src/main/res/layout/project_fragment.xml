@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E5E7"
+    android:orientation="horizontal" >
+
+    <android.support.v7.widget.CardView
+        xmlns:cv="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/propertyCardNoData"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        cv:cardElevation="5dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textnodata"
+             style="@style/RobotoTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="@string/NoDataFoundProperty" />
+    </android.support.v7.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/flProperty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvProjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/orang_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right|end"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            fab:fab_colorNormal="@color/toolBarColor"
+            fab:fab_colorPressed="@color/lightOrang"
+            fab:fab_icon="@drawable/float_map" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMapProjects"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <FrameLayout
+            android:id="@+id/flPropertyMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" >
+
+            <fragment
+              
+                android:id="@+id/mapForProperties"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                class="com.google.android.gms.maps.MapFragment" />
+
+
+
+            <ImageView
+                android:id="@+id/ivBackerrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:visibility="gone"
+                android:contentDescription="@string/imageDesc"
+                android:src="@drawable/back" />
+
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/orang_IconBackMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right|end"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                fab:fab_colorNormal="@color/toolBarColor"
+                fab:fab_colorPressed="@color/lightOrang"
+                fab:fab_icon="@drawable/maplist" />
+        </FrameLayout>
+    </LinearLayout>
+
+</GridLayout>

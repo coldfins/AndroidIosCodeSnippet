@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.housing.housecheap.NearMapActivity" >
+
+   
+    
+     <item
+        android:id="@+id/normal"
+        android:orderInCategory="100"
+        android:title="@string/normal"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/hybrid"
+        android:orderInCategory="200"
+        android:title="@string/hybrid"
+        app:showAsAction="never"/>
+    
+    
+    <item
+        android:id="@+id/satellite"
+        android:orderInCategory="300"
+        android:title="@string/satellite"
+        app:showAsAction="never"/>
+
+</menu>
