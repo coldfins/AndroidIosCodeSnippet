@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Kinjal\\Company Profile\\Sample app source code\\KhanaDo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\rest_inforamtion.xml",
+        "source": "D:\\Kinjal\\Company Profile\\Sample app source code\\KhanaDo\\app\\src\\main\\res\\menu\\rest_inforamtion.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\Company Profile\\Sample app source code\\KhanaDo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\add_to_basket.xml",
+        "source": "D:\\Kinjal\\Company Profile\\Sample app source code\\KhanaDo\\app\\src\\main\\res\\menu\\add_to_basket.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\Company Profile\\Sample app source code\\KhanaDo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\restaurant_categoty.xml",
+        "source": "D:\\Kinjal\\Company Profile\\Sample app source code\\KhanaDo\\app\\src\\main\\res\\menu\\restaurant_categoty.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\Company Profile\\Sample app source code\\KhanaDo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Kinjal\\Company Profile\\Sample app source code\\KhanaDo\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Kinjal\\Company Profile\\Sample app source code\\KhanaDo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\splash_screen.xml",
+        "source": "D:\\Kinjal\\Company Profile\\Sample app source code\\KhanaDo\\app\\src\\main\\res\\menu\\splash_screen.xml"
+    }
+]

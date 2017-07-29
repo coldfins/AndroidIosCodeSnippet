@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/AddToBasketActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/RestaurantCategoryActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Adapter/AppController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Adapter/MenuCategoryRestaurantsAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Adapter/RestBasketAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Fragment/RestCategoryDishFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Model/AllCategorybymenuModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Model/AllMenuOfRestModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Model/FeedBackDetailModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Model/GetAllFeedBackModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Model/feedback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Model/getAllCityModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Model/getAllmenuDetailByrestModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Utils/LinearLayoutManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/defaultimg.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/logo1.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/splashlogo.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/splashscreen.png" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/splashtext.png" charset="windows-1251" />
+    <file url="PROJECT" charset="windows-1251" />
+  </component>
+</project>

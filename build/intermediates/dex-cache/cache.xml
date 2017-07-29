@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Kinjal\Company Profile\Sample app source code\KhanaDo\app\libs\PGSDK_v1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="957d299c4769678a84ac41b5a05c970511bf5254">
+        <dex dex="D:\Kinjal\Company Profile\Sample app source code\KhanaDo\app\build\intermediates\transforms\dex\debug\folders\1000\2\PGSDK_v1.0_83f76bab62b5e6e9cca196d1c9a6e9125e98a868\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Kinjal\Company Profile\Sample app source code\KhanaDo\app\libs\stripe-java-1.48.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a84ff61097d8692aceb97f4150dc2693012296b1">
+        <dex dex="D:\Kinjal\Company Profile\Sample app source code\KhanaDo\app\build\intermediates\transforms\dex\debug\folders\1000\2\stripe-java-1.48.0_c1718a9668e207c0ae03de9a5416559aecee72ce\classes.dex" />
+    </item>
+
+</items>

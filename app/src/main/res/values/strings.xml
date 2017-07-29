@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eathub</string>
+    <string name="action_settings">Settings</string>
+    <!-- location page -->
+
+    <string name="title_activity_restaurant_categoty">RestaurantCategotyActivity</string>
+
+    <!-- filter -->
+    <string name="title_activity_rest_inforamtion">RestInforamtionActivity</string>
+
+    <!-- paytm -->
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="facebook_app_id">476747702702102</string>
+
+</resources>

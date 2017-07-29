@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutPaymentInfo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:visibility="gone" >
+
+    <LinearLayout
+        android:id="@+id/layoutOnlinePayment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Online Payment"
+            android:textColor="#99000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutCashPayment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Cash Payment"
+            android:textColor="#99000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

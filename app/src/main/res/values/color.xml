@@ -1,0 +1,25 @@
+<resources>
+
+    <color name="statusBarColor">#9C221E</color>
+    <color name="toolBarColor">#B92B27</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="viewColor">#D2D2D4</color>
+    <color name="drawerColor"> #737373</color>
+    <color name="graytextcolor">#838383</color>
+    <color name="psts_background_tab_pressed">#1AFFFFFF</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#B6B6B6</color>
+    <color name="gray_btn_bg_pressed_color">#444444</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+
+</resources>

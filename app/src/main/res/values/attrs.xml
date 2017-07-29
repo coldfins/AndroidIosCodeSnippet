@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+    
+    <attr name="SpinKitViewStyle" format="reference" />
+
+    <declare-styleable name="SpinKitView">
+        <attr name="SpinKit_Style">
+            <enum name="RotatingPlane" value="0" />
+            <enum name="DoubleBounce" value="1" />
+            <enum name="Wave" value="2" />
+            <enum name="WanderingCubes" value="3" />
+            <enum name="Pulse" value="4" />
+            <enum name="ChasingDots" value="5" />
+            <enum name="ThreeBounce" value="6" />
+            <enum name="Circle" value="7" />
+            <enum name="CubeGrid" value="8" />
+            <enum name="FadingCircle" value="9" />
+            <enum name="FoldingCube" value="10" />
+            <enum name="RotatingCircle" value="11" />
+        </attr>
+        <attr name="SpinKit_Color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="FloatLabeledEditText">
+        <attr name="fletTextAppearance" format="reference" />
+        <attr name="fletPadding" format="reference|dimension" />
+        <attr name="fletPaddingLeft" format="reference|dimension" />
+        <attr name="fletPaddingTop" format="reference|dimension" />
+        <attr name="fletPaddingRight" format="reference|dimension" />
+        <attr name="fletPaddingBottom" format="reference|dimension" />
+        <attr name="fletBackground" format="reference|color" />
+    </declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsDividerWidth" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsPaddingMiddle" format="boolean" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsTabTextSize" format="dimension" />
+        <attr name="pstsTabTextColor" format="reference" />
+        <attr name="pstsTabTextStyle" format="reference">
+            <flag name="normal" value="0x0" />
+            <flag name="bold" value="0x1" />
+            <flag name="italic" value="0x2" />
+        </attr>
+        <attr name="pstsTabTextAllCaps" format="boolean" />
+        <attr name="pstsTabTextAlpha" format="integer" />
+        <attr name="pstsTabTextFontFamily" format="string" />
+    </declare-styleable>
+
+</resources>

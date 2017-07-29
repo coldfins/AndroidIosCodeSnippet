@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="16dp" >
+
+    <ImageView
+        android:id="@+id/rowIcon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="4dp" />
+
+    <TextView
+        android:id="@+id/rowText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:paddingLeft="32dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/rowBasketTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@android:id/icon"
+        android:layout_alignTop="@android:id/icon"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:background="@drawable/drawable_notification"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:minWidth="20dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="4dp"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:visibility="gone" />
+
+</LinearLayout>

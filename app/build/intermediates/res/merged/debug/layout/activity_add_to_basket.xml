@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolBarColor"
+        android:elevation="4dp" >
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvBasket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </android.support.v7.widget.RecyclerView>
+
+        <android.support.v7.widget.CardView
+            xmlns:cv="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cvRestaurant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            cv:cardBackgroundColor="@color/white"
+            cv:cardCornerRadius="2dp"
+            cv:cardElevation="2dp"
+            cv:cardUseCompatPadding="true" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:orientation="vertical"
+                android:padding="16dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Total"
+                        android:textColor="@color/toolBarColor"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="0"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/tvTotalAmountRupeeIcon3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="4dp"
+                            android:text="RS. "
+                            android:textColor="@color/toolBarColor"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/tvTotalAmountwithTax"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="123456"
+                            android:textColor="@color/toolBarColor"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" >
+
+        <Button
+            android:id="@+id/btnAddToCart"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rippleeffect"
+            android:elevation="2dp"
+            android:text="ADD TO BASKET"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.food.eathub.RestInforamtionActivity" >
+
+    <item
+        android:id="@+id/infoPageBasket"
+        android:icon="@drawable/restbasket"
+        android:orderInCategory="200"
+        android:title="ss"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+</menu>
