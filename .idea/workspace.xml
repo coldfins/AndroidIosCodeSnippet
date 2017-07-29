@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06226f1f-3134-4c23-a9ec-bd8dd86edf83" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/AddToBasketActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/AddToBasketActivity.java" />
     </list>
     <ignored path="KhanaDo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,16 +45,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SplashScreenActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/SplashScreenActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserHomeActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/UserHomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,14 +123,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestCategoryDishFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RestCategoryDishFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Fragment/RestCategoryDishFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#0#2892#0" expanded="true" />
-                <element signature="imports" expanded="true" />
+                <element signature="method#onCreateView#0;class#RestCategoryDishFragment#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddToBasketActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/AddToBasketActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="244" column="4" selection-start-line="244" selection-start-column="4" selection-end-line="244" selection-end-column="4" />
+              <folding>
+                <element signature="class#4871:5284" expanded="false" />
+                <element signature="class#5594:5645" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpinKitView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/ybq/android/spinkit/SpinKitView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="docComment;class#SpinKitView#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2451,7 +2468,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/food/eathub/test/BuildConfig.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_inspiration.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/restaurants_item_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/food/eathub/Fragment/HelpFragment.java" />
@@ -2491,7 +2507,6 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/pnikosis/materialishprogress/ProgressWheel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/AddToBasketActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/RestaurantCategoryActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/RestInformationActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/SplashScreenActivity.java" />
@@ -2502,6 +2517,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/food/eathub/Adapter/RestBasketAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/food/eathub/Fragment/RestaurantsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/food/eathub/Fragment/RestCategoryDishFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/github/ybq/android/spinkit/SpinKitView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/AddToBasketActivity.java" />
       </list>
     </option>
   </component>
@@ -2536,7 +2553,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2747,15 +2764,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane />
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.sdk.path" value="D:/sdk/5.0_sdk" />
     <property name="device.picker.selection" value="18cedc26" />
@@ -2764,6 +2781,8 @@
     <property name="ExportApk.ApkPath" value="D:\Divya_Work\KhanaDo\playstore\keystore_APK" />
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -3107,8 +3126,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17092119" sideWeight="0.8949625" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3416,13 +3435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/ybq/android/spinkit/SpinKitView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/ybq/android/spinkit/sprite/SpriteGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -3439,17 +3451,6 @@
       </provider>
       <provider editor-type-id="android-manifest">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/AddToBasketActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="139" column="3" selection-start-line="139" selection-start-column="3" selection-end-line="141" selection-end-column="7" />
-          <folding>
-            <element signature="class#4871:5284" expanded="false" />
-            <element signature="class#5594:5645" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/RestaurantCategoryActivity.java">
@@ -3487,7 +3488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3564,11 +3564,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Fragment/RestCategoryDishFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="e#0#2892#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="method#onCreateView#0;class#RestCategoryDishFragment#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/github/ybq/android/spinkit/SpinKitView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="docComment;class#SpinKitView#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/food/eathub/Activity/AddToBasketActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="244" column="4" selection-start-line="244" selection-start-column="4" selection-end-line="244" selection-end-column="4" />
+          <folding>
+            <element signature="class#4871:5284" expanded="false" />
+            <element signature="class#5594:5645" expanded="false" />
           </folding>
         </state>
       </provider>
