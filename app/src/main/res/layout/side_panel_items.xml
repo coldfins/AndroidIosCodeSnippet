@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_10"
+        >
+
+        <ImageView
+            android:id="@+id/tvItemIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_weight="0"
+            android:contentDescription="imageDesc"
+            android:padding="@dimen/margin_3" />
+
+        <TextView
+            android:id="@+id/tvItemName"
+            style="@style/RobotoTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_25"
+            android:layout_marginStart="@dimen/margin_25"
+            android:layout_weight="1"
+            android:padding="@dimen/margin_3"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="@dimen/smallTextSize" />
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:visibility="gone"
+        android:background="@color/transparentWhite"></View>
+
+</LinearLayout>

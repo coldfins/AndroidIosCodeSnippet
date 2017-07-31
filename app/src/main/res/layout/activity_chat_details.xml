@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundApp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/matchesCardNoData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/no_conversations" />
+
+        <TextView
+            android:id="@+id/textnodata"
+            style="@style/RobotoTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="No Conversation found"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize22" />
+
+    </LinearLayout>
+
+    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+        android:id="@+id/swipyRefreshLayoutChatConversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearChatEdit"
+        android:layout_below="@+id/relativeToolbar"
+        app:srl_direction="both">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvChatConversion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none" />
+    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/linearChatEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edtMessageContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:hint="Type here..."
+            android:inputType="textCapWords|textCapSentences"
+            android:maxLines="3"
+            android:textColor="@color/hintColor"
+            android:textColorHint="@color/black_transperent" />
+
+        <ImageView
+            android:id="@+id/imgSendMessage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0"
+            android:src="@mipmap/send_big" />
+
+        <!--<net.steamcrafted.materialiconlib.MaterialIconView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/icon"-->
+        <!--android:layout_width="48dp"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:scaleType="center"-->
+        <!--app:materialIcon="Send"-->
+        <!--app:materialIconColor="#000000"-->
+        <!--app:materialIconSize="24dp" />-->
+
+    </LinearLayout>
+</RelativeLayout>

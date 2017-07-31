@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">CoolMatch</string>
+    <string name="dating">CoolMatch</string>
+    <string name="signin">Sign in</string>
+    <string name="facebooksignin">Login with Facebook</string>
+    <string name="facebooklogout">Logout</string>
+    <string name="next">Next</string>
+    <string name="signup">Sign up</string>
+    <string name="name">My Name is...</string>
+    <string name="uname">User Name</string>
+    <string name="yuremail">Your email...</string>
+    <string name="yurpwd">Your password...</string>
+    <string name="yurcpwd">Confirm password...</string>
+    <string name="yurcontact">Your contact number...</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmpwd">Confirm Password</string>
+    <string name="contactno">Contact Number</string>
+    <string name="im">I am a...</string>
+    <string name="lookingfor">Looking for...</string>
+    <string name="live">You live at</string>
+    <string name="city">City</string>v
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="zipcode">Zip Code</string>
+    <string name="uploadphoto">Upload photo</string>
+    <string name="imageDescString">ImageDescString</string>
+    <string name="letstart">Lets start</string>
+    <string name="newAccountString">If you don\'t already have an account?</string>
+    <string name="forgotpwd">Forgot Password?</string>
+    <string name="glad">We are glad to have you on Dating App.</string>
+    <string name="better">better</string>
+    <string name="faceBookApplicationId">1176575642487903</string>
+    <string name="doinggreat">You are doing great!</string>
+    <string name="evryqustions">Every question you answer brings one step closer to making meaningful introduction for you.</string>
+    <string name="trust">Trust us. Your answers are being put to good use.</string>
+    <string name="proceed">Proceed</string>
+    <string name="question">Questions</string>
+    <string name="demo_min_label"></string>
+    <string name="demo_max_label"></string>
+    <string name="keep">Keep it moving</string>
+    <string name="rating">Rating:</string>
+    <string name="previous">Prev</string>
+
+    <string name="profile">Profile</string>
+    <string name="matches">Matches</string>
+    <string name="quickMatch">Quick Match</string>
+    <string name="communication">Communication</string>
+    <string name="event">Event</string>
+    <string name="setting">Settings</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="likeVisitors">Like/Visitors</string>
+    <string name="logout">Logout</string>
+    <string name="ViewAllQuestions">View All Questions</string>
+    <string name="stayLoginString">Remember Me</string>
+    <string name="nodata">No matches found.</string>
+    <string name="noevent">No event found.</string>
+    <string name="nodataqusAns">No more qus-ans found.</string>
+    <string name="noqua">No qus-ans found.</string>
+    <string name="noQua">No question found.</string>
+    <string name="noAns">No answer found.</string>
+
+
+    <string-array name="nav_drawer_items">
+        <!--<item>Profile</item>-->
+        <!--<item>Matches</item>-->
+        <item>Quick Match</item>
+        <item>Communication</item>
+        <!--<item>Setting</item>-->
+        <!--<item>Subscribe</item>-->
+        <!--<item>Like/Visitors</item>-->
+        <!--<item>Logout</item>-->
+    </string-array>
+
+    <string-array name="nav_drawer_items_image">
+        <!--<item>@mipmap/profile</item>-->
+        <!--<item>@mipmap/matches</item>-->
+        <item>@mipmap/quick_match</item>
+        <item>@mipmap/communication</item>
+        <!--<item>@mipmap/settings</item>-->
+        <!--<item>@mipmap/subscribe</item>-->
+        <!--<item>@mipmap/like_visitors</item>-->
+        <!--<item>@mipmap/logout</item>-->
+    </string-array>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

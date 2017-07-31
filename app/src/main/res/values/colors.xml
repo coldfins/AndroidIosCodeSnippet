@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#db2c57</color>
+    <color name="colorPrimaryDark">#AE2046</color>
+    <color name="colorAccent">#db2c57</color>
+    <color name="transparentpink">#26db2c57</color>
+    <color name="white" >#ffffff</color>
+    <color name="black" >#000000</color>
+    <color name="red" >#ff0000</color>
+    <color name="whiteOpacity70" >#B3ffffff</color>
+    <color name="whiteOpacity50" >#50ffffff</color>
+    <color name="whiteOpacity80" >#33ffffff</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="hintColor">#757575</color>
+    <color name="transparentHintColor">#B3757575</color>
+    <color name="transparentBackground">#99000000</color>
+    <color name="background">#40000000</color>
+    <color name="error">#ff6e6e</color>
+    <color name="blue">#3b5998</color>
+    <color name="lightPink">#F7C3D1</color>
+    <color name="Pink">#FA6C92</color>
+    <color name="ratingBg">#2C2A2A</color>
+    <color name="transparentPink">#26db2c57</color>
+    <color name="transparentWhite">#26ffffff</color>
+    <color name="mathesbg">#99ffffff</color>
+    <color name="transparentWhiteDetails">#99ffffff</color>
+    <color name="transparentBlackText">#CC000000</color>
+    <color name="backgroundApp">#383435</color>
+    <color name="black_transperent">#4D000000</color>
+    <color name="green" >#01DF3A</color>
+    <color name="divider">#33FFFFFF</color>
+
+
+</resources>

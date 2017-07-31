@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <!--<item-->
+            <!--android:id="@+id/profile"-->
+            <!--android:checked="false"-->
+            <!--android:icon="@mipmap/profile"-->
+            <!--android:title="@string/profile" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/matches"-->
+            <!--android:checked="false"-->
+            <!--android:icon="@mipmap/matches"-->
+            <!--android:title="@string/matches" />-->
+
+        <item
+            android:id="@+id/quickMatch"
+            android:checked="false"
+            android:icon="@mipmap/quick_match"
+            android:title="@string/quickMatch" />
+        <item
+            android:id="@+id/communication"
+            android:checked="false"
+            android:icon="@mipmap/communication"
+            android:title="@string/communication" />
+
+        <!--<item-->
+            <!--android:id="@+id/event"-->
+            <!--android:checked="false"-->
+            <!--android:icon="@mipmap/ic_event_white"-->
+            <!--android:title="@string/event" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/setting"-->
+            <!--android:checked="false"-->
+            <!--android:icon="@mipmap/settings"-->
+            <!--android:title="@string/setting" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/subscribe"-->
+            <!--android:checked="false"-->
+            <!--android:visible="false"-->
+            <!--android:icon="@mipmap/subscribe"-->
+            <!--android:title="@string/subscribe" />-->
+        <!--<item-->
+            <!--android:id="@+id/like"-->
+            <!--android:checked="false"-->
+            <!--android:icon="@mipmap/like_visitors"-->
+            <!--android:title="@string/likeVisitors" />-->
+        <!--<item-->
+            <!--android:id="@+id/logout"-->
+            <!--android:checked="false"-->
+            <!--android:icon="@mipmap/logout"-->
+            <!--android:title="@string/logout" />-->
+
+
+    </group>
+</menu>
